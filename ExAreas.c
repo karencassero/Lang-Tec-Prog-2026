@@ -3,7 +3,7 @@
 #define pi 3.14159
 
 int main(int argc, char *argv[]){
-//área do círculo
+//Ã¡rea do cÃ­rculo
 
        float raio, area, raioQuadrado;
        
@@ -13,9 +13,9 @@ int main(int argc, char *argv[]){
        raioQuadrado = raio*raio;
        area = pi * raioQuadrado;
        
-       printf ("A area do círculo de raio %f = %f, raio, area");
+       printf ("A area do cÃ­rculo de raio %f = %f, raio, area");
        
-//área do trapézio descedente
+//Ã¡rea do trapÃ©zio descedente
 
     float B, b, h, areaT;
     
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
     printf ("Insira h: \n");
     scanf ("%f", &h);
     
-    area = ((B+b)*h)/2;
+    areaT = ((B+b)*h)/2;
     
     printf("Area do trapezio descendente igual a %f", areaT);
 
