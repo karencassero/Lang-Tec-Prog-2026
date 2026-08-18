@@ -50,6 +50,17 @@ int main(int argc, char *argv[]) {
 	res = res/2;
 	
 	printf ("O número %d em binário = %d%d%d%d%d%d%d", n, res%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
+
+	//Exercício 8
+
+	int x1, x2, y1, y2, p1, p2;
+	float dis;
+	
+	printf ("Insira o valor do par ordenado na forma (x1, x2): ");
+	scanf ("%d", &x1);
+	scanf ("%d", &x2);
+	
+	printf ("\n\nLeitura: (%d, %d)", x1, x2);
 	
 	return 0;
 }
