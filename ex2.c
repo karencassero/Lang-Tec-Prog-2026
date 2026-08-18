@@ -15,6 +15,17 @@ int main(int argc, char *argv[]) {
 	resultado = (a+b+c)/3;
 	
 	printf("resultado %f", resultado);
+
+	//Exercício 8
+
+	int x1, x2, y1, y2, p1, p2;
+	float dis;
+	
+	printf ("Insira o valor do par ordenado na forma (x1, x2): ");
+	scanf ("%d", &x1);
+	scanf ("%d", &x2);
+	
+	printf ("\n\nLeitura: (%d, %d)", x1, x2);
 	
 	return 0;
 	
