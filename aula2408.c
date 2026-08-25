@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	
+{
 	int a, b, c;
 	int resultado;
 	
@@ -13,6 +13,30 @@ int main(int argc, char *argv[]) {
 	resultado = a == b;
 	
 	printf ("%d", resultado);
+}
+//Ex2
+{
+	int a, b, c;
+	int resultado;
 	
+	printf ("Insira os valores de A, B, C: ");
+	scanf ("%d %d %d", &a, &b, &c);
+	
+	if (a>b){
+		resultado = a;
+	}
+	else{
+		resultado = b;
+	}
+	
+		if (resultado>c){
+		resultado = resultado;
+	}
+	else{
+		resultado = c;
+	}
+	
+	printf ("%d eh o maior", resultado);
+}
 	return 0;
 }
