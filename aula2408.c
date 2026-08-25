@@ -38,5 +38,26 @@ int main(int argc, char *argv[]) {
 	
 	printf ("%d eh o maior", resultado);
 }
+//Ou
+{
+		int a, b, c;
+	int resultado;
+	
+	printf ("Insira os valores de A, B, C: ");
+	scanf ("%d %d %d", &a, &b, &c);
+	
+	if (a>b){
+		resultado = a;
+	}
+	else{
+		resultado = b;
+	}
+	
+	if (c>resultado){
+		resultado = c;
+	}
+
+	printf ("%d eh o maior", resultado);
+}
 	return 0;
 }
