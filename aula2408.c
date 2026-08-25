@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 		resultado = b;
 	}
 	
-		if (resultado>c){
+	if (resultado>c){
 		resultado = resultado;
 	}
 	else{
@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 }
 //Ou
 {
-		int a, b, c;
+	int a, b, c;
 	int resultado;
 	
 	printf ("Insira os valores de A, B, C: ");
@@ -58,6 +58,23 @@ int main(int argc, char *argv[]) {
 	}
 
 	printf ("%d eh o maior", resultado);
+}
+
+//Ex3
+{
+	int numero, resultado;
+	
+	printf ("Insira o valor: ");
+	scanf ("%d", &numero);
+	
+	if (numero>0){
+		resultado = numero*-1;
+	}
+	else{
+		resultado = numero*numero;
+	}
+	
+	printf ("%d", resultado);
 }
 	return 0;
 }
