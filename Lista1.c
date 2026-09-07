@@ -145,9 +145,9 @@ int main(int argc, char *argv[]) {
 	p1 = pow(x2-x1, 2);
 	p2 = pow(y2-y1, 2);
 
-	dist = sqrt(p1+p2);
+	dis = sqrt(p1+p2);
 	
-	printf ("\nA distância entre P1 e P2 = %f, dis);
+	printf ("\nA distância entre P1 e P2 = %f", dis);
 }
 	
 	return 0;
