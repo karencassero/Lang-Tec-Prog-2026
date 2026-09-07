@@ -66,7 +66,7 @@ int main(int argc, char *argv[]) {
     printf("Digite o angulo em graus: ");
     scanf("%lf", &g); // -> exemplo: 180.0
  
-    r = g * p / 180; // -> 180 * 3.141592 / 180 = 3.141592
+    r = g * pi / 180; // -> 180 * 3.141592 / 180 = 3.141592
  
     printf("Ângulo em radianos: %.4f\n", r);
 }
