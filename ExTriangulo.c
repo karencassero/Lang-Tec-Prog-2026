@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
     area = (base * altura) / 2;
 
-    printf("A area do triangulo retangulo e: %.2f\n", area);
+    printf("Area do triangulo retangulo: %.2f\n", area);
 
 	return 0; 
 }
